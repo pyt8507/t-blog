@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+    <Resource
+        name="blogConn"
+        type="javax.sql.DataSource"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        url="jdbc:mysql://127.0.0.1:3306/blogDatabase?&amp;serverTimezone=GMT%2B8&amp;characterEncoding=utf-8"
+        username="root"
+        password="tong"
+        maxActive="15"
+        maxIdle="15"
+        minIdle="1"
+        maxWait="1000"
+    />
+</Context>
